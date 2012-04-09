@@ -116,7 +116,7 @@ class IcyCmdBasic
   listen_to :message
 
   def listen(m)
-    if m.message.match(/^!info/)
+    if m.message.match(/^!info/) ## Thay the bang tra ve output cua !msg ChanServ #archlinux info
       m.reply "ArchLinuxVn aka Vietnamese Groups of ArchLinux Users"
       m.reply " * irc channel #archlinuxvn on irc.freenode.net"
       m.reply " * homepage http://archlinuxvn.tuxfamily.org/"
